@@ -1,5 +1,6 @@
 import sys
-
+ 
+    
 def main(input_string):
     print(input_string[::-1])
 palindrome =input("Введите строку \n")
@@ -8,5 +9,7 @@ if (palindrome == reverse):
     print("Палиндром")
 else:
     print("Не является палиндром")
+
+    
 if __name__ == '__main__':
     main(sys.argv[1])
