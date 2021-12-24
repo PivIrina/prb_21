@@ -1,5 +1,6 @@
 import sys
 
+
 def main(input_string):
     print(input_string[::-1])
 print ("Введите n и t: ")
