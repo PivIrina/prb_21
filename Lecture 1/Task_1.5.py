@@ -15,6 +15,8 @@ while (m != t):
             pos[i],pos[i-1] = pos[i-1],pos[i]
 position ="".join(pos)           
 print(position)
+
+
 if __name__ == '__main__':
     main(sys.argv[1])
 
