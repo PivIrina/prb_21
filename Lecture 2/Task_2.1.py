@@ -12,8 +12,8 @@ def translate (input_str):
           'v': '***—', 'w': '*——', 'x': '—**—',
           'y': '—*——', 'z': '——**'}
     input_str.lower()
-    trans =list(input_str)
-    end_str = ''
+    trans =list(input_str) 
+    end_str = '' # переменная для записи перевода строки
     for i in range(len(trans)):
         end_str = end_str + morse.get(trans[i])
     print(end_str)
@@ -22,7 +22,7 @@ def translate (input_str):
 
 def main(input_string):
     print ('Введите строку, которую хотите перевести')
-    input_str = input()
+    input_str = input() #входная строка
     translate (input_str)
 
 
