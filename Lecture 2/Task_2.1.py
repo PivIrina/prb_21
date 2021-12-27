@@ -21,7 +21,7 @@ def translate (input_str):
 
 
 def main(input_string):
-    print ('Введите строку, которую хотите перевести')
+    print ('Введите строку, которую хотите перевести ')
     input_str = input() #входная строка
     translate (input_str)
 
