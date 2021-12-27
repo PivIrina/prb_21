@@ -15,7 +15,7 @@ def translate (input_str):
     trans =list(input_str)
     end_str = ''
     for i in range(len(trans)):
-        end_str = end_str + morse.get(trans[i],9)
+        end_str = end_str + morse.get(trans[i])
     print(end_str)
             
 
